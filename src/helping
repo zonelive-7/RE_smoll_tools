@@ -1,0 +1,7 @@
+def help_addr_count():
+	print('''
+		if you want RVA just input like :
+		<variable> addr_count(<parameter a>,<parameter b>)
+		if you want RVA + file offset 
+		<variable a> <variable b> addr_count(<base address >,<main address>,<va_start>,<raw_start>)
+		''')
